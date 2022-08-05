@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: rgba(55, 108, 207, 0.5);
+}
+
+.navBar {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-around;
+  width: inherit;
+  background-color: dodgerblue;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}
+
+.List-container {
+  display: flex;
+  height: 90px;
+  width: 550px;
+  align-items: center;
+  /* border: 2px solid red; */
+  list-style: none;
+  justify-content: space-around;
+  margin: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  box-shadow: 0px 5px 15px black;
+}
+
+.items {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30%;
+  border: 2px solid white;
+}
+
+.items:hover {
+  background-color: rgb(221, 101, 221);
+  border: 2px solid black;
+}
+
+.Main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Index-container {
+  background-color: dodgerblue;
+  height: 200px;
+  width: 100px;
+  margin: 50px;
+}
+.Ads-container {
+  margin: 50px;
+  height: 200px;
+  width: 100px;
+  background-color: dodgerblue;
+}
+.Feature-container {
+  margin: 50px;
+  height: 200px;
+  width: 100px;
+  background-color: dodgerblue;
+}
